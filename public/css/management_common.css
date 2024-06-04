@@ -1,0 +1,63 @@
+.header{
+    background-color: whitesmoke;
+}
+
+.management_list{
+    max-width: 1000px;
+    height: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.management_list h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.management_list_button{
+    display: flex;
+}
+
+.management_list_button li{
+    margin-left: 50px;
+    font-size: 18px;
+}
+.management_list_button li:hover{
+    color: aquamarine;
+}
+
+.error_message{
+    border-radius: 8px;
+    background-color: #fce3e3;
+    border: 2px solid #ba2020;
+    border-left-width: 8px;
+    padding:10px 15px 10px 45px;
+    margin-bottom: 20px;
+}
+
+.error_message li{
+    list-style-type: square;
+    color: #ba2020;
+    margin-top: 10px;
+}
+
+.error{
+    color:#e60033 ;
+    font-size: small;
+    font-weight: bold;
+    margin-top: 10px;
+    letter-spacing :0.5px;
+}
+
+.error_form{
+    background-color: #fce3e3;
+}
+
+.error_form_text{
+    background-color: #fce3e3;
+    border:1px solid #ba2020;
+}
+
