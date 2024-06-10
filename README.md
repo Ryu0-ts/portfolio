@@ -1,4 +1,4 @@
-![スクリーンショット 2024-06-10 16 59 21](https://github.com/Ryu0-ts/portfolio/assets/134183236/9d26d55f-2f2c-4fa2-b3a2-0e453d7e9631)## アプリケーション名
+## アプリケーション名
   Pet's First
 
 ## アプリケーション概要
