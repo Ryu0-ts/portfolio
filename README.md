@@ -1,9 +1,30 @@
+## アプリケーション名
+  Pet's First
 
-<h1 align="center">Hi 👋, I'm potepan</h1>
-&nbsp;
-<h3 align="center">A passionate frontend developer from Japan</h3>
-- 🔭 I’m currently working on **Potepan style** - 🌱 I’m currently learning **Python** - 💬 Ask me about **vue**
-<h3 align="left">Languages and Tools:</h3>
-&nbsp;
-<p align="left"><a href="https://expressjs.com" target="_blank" rel="noopener"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40" /> </a> <a href="https://www.java.com" target="_blank" rel="noopener"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40" /> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40" /> </a> <a href="https://www.mysql.com/" target="_blank" rel="noopener"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40" /> </a> <a href="https://www.oracle.com/" target="_blank" rel="noopener"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="40" height="40" /> </a> <a href="https://www.php.net" target="_blank" rel="noopener"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40" /> </a> <a href="https://www.postgresql.org" target="_blank" rel="noopener"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40" /> </a> <a href="https://reactjs.org/" target="_blank" rel="noopener"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40" /> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noopener"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40" /> </a> <a href="https://vuejs.org/" target="_blank" rel="noopener"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="40" height="40" /> </a></p>
-&nbsp;
+## アプリケーション概要
+  保護犬・保護猫と引き取り手とのマッチングを目的としたサイトです。
+
+## 開発環境
+   - Laravel 10
+   - HTML5
+   - 環境:Docker (sail環境)
+
+## サイトイメージ
+  
+
+## 起動方法
+ DockerでWebサーバーを起動してご確認ください
+
+## 制作過程
+　 某駅前で保護動物の謙譲会が行なっており、Webサイトでより多くの保護動物を救える機会が増えるかもしれないと考え架空会社のマッチングサイトを作成しました。
+  
+## 苦労したところ
+　  Webサイトのデザインに苦労しました。
+
+## 実装した機能
+  - 保護動物情報のデータベースへの登録機能
+  - 保護動物情報のデータベースから削除機能  
+  - データベースに登録済みの保護動物情報の削除機能          
+
+## 実装したい機能
+- モバイル向けのCSSを作成できていないため、モバイル向けにも対応したい
