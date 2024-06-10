@@ -142,7 +142,7 @@
                 <tr>
                     <th>保護された経緯</th>
                     <td>
-                        <textarea name="background" class="{{$errors->has("background")? 'error_form_text' : ''}}">{{old("background")}}</textarea>
+                        <textarea name="background" id="text" class="{{$errors->has("background")? 'error_form_text' : ''}}">{{old("background")}}</textarea>
                         @if($errors->has("background"))
                             <div class="error">
                                 {{$errors->first("background")}}

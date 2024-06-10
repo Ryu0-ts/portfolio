@@ -170,7 +170,7 @@
                 <tr>
                     <th>合計金額</th>
                     <td>
-                        <input type="text" name="total_price" src="{{old("total_price",$id->total_price)}}"><span>円</span>
+                        <input type="text" name="total_price" value="{{old("total_price",$id->total_price)}}"><span>円</span>
                         @if($errors->has("total_price"))
                             <div class="error">
                                 {{$errors->first("total_price")}}
@@ -196,7 +196,7 @@
                 <tr>
                     <th>画像アップロード</th>
                     <td>
-                        <input type="file" name="image" value="{{old("image",$id->image)}}">
+                        <input type="file" name="image">
                     </td>
                 </tr>
             </table>

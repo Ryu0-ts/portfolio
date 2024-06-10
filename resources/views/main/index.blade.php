@@ -34,9 +34,6 @@
     </header>
 
     <main>
-
-
-
         <div class="main_img">
             <div class="main_img_text">
                 <h1>生き物たちに、新しい出会いを</h1>
@@ -51,17 +48,6 @@
                 多くの動物たちが、行き場を失うことなく、安全で健康的な生活ができるようにサポートいたします。
             </p>
         </div>
-
-        <!--
-        <div class="news">
-
-            <h3>NEWS</h3>
-            <div class="news_title">
-                <p>あとでつくる</p>
-            </div>
-        </div>
-        -->
-
     </main>
 
 

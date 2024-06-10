@@ -70,9 +70,7 @@ class ManagementController extends Controller
 
     public function update(FormcheckRequest $request,$id)
     {
-        $image = $request->file("image");
-        $path = isset($image)?$image->store("image","public"):"";
-
+        $id = Pet::find($id);
         $param = [
             "type"=>$request->type,
             "gender"=>$request->gender,
@@ -84,15 +82,20 @@ class ManagementController extends Controller
             "background"=>$request->background,
             "terms"=>$request->terms,
             "others"=>$request->others,
-            "image"=>$path,
             "situation"=>$request->situation,
             "receipt"=>$request->invoice,
             "total_price"=>$request->total_price,
         ];
-
-        $id = Pet::find($id);
         $id->update($param);
 
+        $image = $request->file("image");
+        $path = isset($image)?$image->store("image","public"):"";
+        if(isset($image)){
+            $param2 = [
+                "image"=>$path,
+            ];
+            $id->update($param2);
+        }
         return back()->with('message','更新しました');
     }
 

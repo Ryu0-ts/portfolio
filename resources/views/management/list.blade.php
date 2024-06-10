@@ -44,8 +44,8 @@
                         猫
                     @endif
                 </td>
-                <td>{{$list_db->created_at->format("Y/m/d")}}</td>
-                <td>{{$list_db->created_at->modify("+1 Year")->format("Y/m/d")}}</td>
+                <td>{{$list_db->updated_at->format("Y/m/d")}}</td>
+                <td>{{$list_db->updated_at->modify("+1 Year")->format("Y/m/d")}}</td>
                 <td  class="button">
                     <a href="{{route("management.edit",$list_db->id)}}"><button class="edit_button">編集</button></a>
                     <a href="{{route("management.delete",$list_db->id)}}"><button class="delete_button">削除</button></a>
