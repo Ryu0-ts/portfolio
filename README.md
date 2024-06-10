@@ -10,12 +10,6 @@
    - 環境:Docker (sail環境)
 
 ## サイトイメージ
-  <img width="1295" alt="スクリーンショット 2024-06-10 16 51 37" src="https://github.com/Ryu0-ts/portfolio/assets/134183236/3acdeb10-6bd2-4cf0-84db-a41cede33c9b">
-  <img width="1295" alt="スクリーンショット 2024-06-10 16 51 37" src="https://github.com/Ryu0-ts/portfolio/assets/134183236/67ee708c-cd02-42e4-ac1a-115efd550156">
-  <img width="1295" alt="スクリーンショット 2024-06-10 16 51 37" src="https://github.com/Ryu0-ts/portfolio/assets/134183236/29ad3a90-24b5-418e-a498-e0e809339a86">
-  <img width="1295" alt="スクリーンショット 2024-06-10 16 51 37" src="https://github.com/Ryu0-ts/portfolio/assets/134183236/178751dd-12a8-4b29-831c-07b02a9b976c">
-　　　　<img width="1295" alt="スクリーンショット 2024-06-10 16 51 37" src="https://github.com/Ryu0-ts/portfolio/assets/134183236/69b8abd8-b268-4464-97cf-f2bbbe8f3879">
-![スクリーンショット 2024-06-10 17 03 22]()
 
 
 ## 起動方法
